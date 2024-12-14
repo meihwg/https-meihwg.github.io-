@@ -52,7 +52,7 @@
         padding: 40px 20px;
     }
 
-    .cards-container p {
+    .cards-container > p {
         font-size: small;
         font-weight: 300;
         text-align: center;
