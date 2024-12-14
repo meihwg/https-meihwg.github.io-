@@ -103,7 +103,7 @@ export const projects: Project[] = [
     {
         title: "Hopack",
         images: ["hopack", "hopack-1", "hopack-3"],
-        tags: ["Logiciel", "Universitaires"],
+        tags: ["Logiciel", "Maquette", "Universitaires"],
         date: "2022",
         description: `Lors de notre première année de BUT, il nous a été demandé de réalisé une application d'organisation d'évènementiel en équipe de 6. Le type d'évènements
                                 était libre et nous avons choisi de réaliser une application <b/>d'organisation de mariages</b> à destination <b/>d'organisateurs de mariage professionnels</b>. L'objectif
@@ -118,7 +118,7 @@ export const projects: Project[] = [
     {
         title: "Hardis Group - Site internet de présentation d'une ESN",
         images: ["hardis"],
-        tags: ["Web", "Universitaires"],
+        tags: ["Web", "Vitrine", "Universitaires"],
         date: "2021",
         description: `L'objectif de ce projet, réalisé en équipe de 3, était de réaliser un site vitrine de présentation d'une ESN (Entreprise de Services du Numérique) du secteur
                                 grenoblois. Il s'agit d'un des premiers sites internet que nous avons pu réaliser.
