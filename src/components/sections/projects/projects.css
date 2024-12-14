@@ -51,4 +51,11 @@
         margin-bottom: 50px;
         padding: 40px 20px;
     }
+
+    .cards-container p {
+        font-size: small;
+        font-weight: 300;
+        text-align: center;
+        width: 100%;
+    }
 }

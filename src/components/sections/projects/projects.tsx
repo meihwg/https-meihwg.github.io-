@@ -3,7 +3,6 @@ import "./projects.css";
 
 import ProjectCards from "../../cards/project-card/project-card";
 
-// todo : afficher un message quand pas de projets
 // todo : plus de projets
 // todo : pas sûre du menu
 
@@ -50,11 +49,16 @@ const Projects: React.FC = () => {
                 </ul>
             </nav>
             <div className="cards-container">
-                {filteredProjects.map((project, index) => 
-                    <ProjectCards key={index} {...project} />
+                {filteredProjects.length === 0 ? (
+                    <p>Aucun projet ne correspond à votre recherche.</p>
+                ) : (
+                    filteredProjects.map((project, index) => 
+                        <ProjectCards key={index} {...project} />
+                    )
                 )}
             </div>
         </section>
+
     );
 };
 
