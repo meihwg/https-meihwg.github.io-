@@ -6,7 +6,7 @@ import "./footer.css";
 const Footer: React.FC = () => {
     return (
         <footer>
-            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+            <p>Pas encore de footer</p>
         </footer>
     );
 };

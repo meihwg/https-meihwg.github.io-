@@ -7,7 +7,7 @@ const Career: React.FC = () => {
     return (
         <section id="career"> 
             <h2>Parcours</h2>
-            <p>Parcours</p>
+            <p>Pas encore de contenu</p>
         </section>
     );
 };
