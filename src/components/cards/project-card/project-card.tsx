@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, images, tags, date, de
 
     return (
         <>
-            <div className="project-card">
+            <div className="project-card" onClick={togglePopup}>
                 <div className="card">
                     <div className="card-image">
                         <img src={"/img/projects/" + images[0] + ".png" || images[0]} alt={title} />
@@ -37,7 +37,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, images, tags, date, de
             </div>
             {
                 popup ?
-                    <div className="popup-bg">
+                    <div className="popup-bg"  onClick={togglePopup}>
                         <div className="project-popup">
                             <div className="popup-header">
                                 <div className="popup-space"></div>
